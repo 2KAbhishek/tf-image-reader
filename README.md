@@ -26,7 +26,7 @@
 <h3>Short sweet headline with 🎇🎉</h3>
 
 <figure>
-  <img src= "https://raw.githubusercontent.com/2KAbhishek/tf-image-reader/main/images/screenshot.png" alt="tf-image-reader Demo" style="width:100%">
+  <img src= "images/screenshot.png" alt="tf-image-reader Demo" style="width:100%">
   <br/>
   <figcaption>tf-image-reader screenshot</figcaption>
 </figure>
