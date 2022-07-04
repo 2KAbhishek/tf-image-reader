@@ -23,29 +23,21 @@
 <a href="https://github.com/2KAbhishek?tab=followers">
 <img alt="Followers" src="https://img.shields.io/github/followers/2kabhishek?color=222&style=plastic&label=Followers"> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
-
-<figure>
-  <img src= "images/screenshot.png" alt="tf-image-reader Demo" style="width:100%">
-  <br/>
-  <figcaption>tf-image-reader screenshot</figcaption>
-</figure>
-
-</div>
+<h3>Feed images to TensorFlow 🖼️📊</h3>
 
 ## What is this
 
-tf-image-reader is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+tf-image-reader is a `utility` that allows you to feed images to TensorFlow from a csv file.
 
 ## Inspiration
 
-tf-image-reader was inspired by `<reason/idea>`.
+Was working with TensorFlow and needed this multiple times, extracted it out for reuse.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `python` and `pillow`
 
 ## Getting tf-image-reader
 
@@ -54,51 +46,26 @@ To install tf-image-reader, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/tf-image-reader
 cd tf-image-reader
-<install_command>
 ```
 
 ## Using tf-image-reader
 
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
+You can import `image-reader` and use it to feed images to TensorFlow.
 
-FLAGS:
-    -h, --help              Prints help information.
+```python
+import image_reader from image_reader
 
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
+# Method signature
+image_reader(csv_file = 'data/sample.csv', image_dir = 'data/' ):
 ```
 
 ## How it was built
 
-tf-image-reader was built using `<tech/library>`
-
-## Challenges faced
-
-While building tf-image-reader the main challenges were `<issue/difficulty>`
+tf-image-reader was built using `VS Code` and `Python`.
 
 ## What I learned
 
-While building tf-image-reader I `<learned/accomplished>` about `<learning/accomplishment>`
-
-## What's next
-
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+- Learned about `pillow` and it's `Image` class
 
 Hit the ⭐ button if you found this useful.
 
